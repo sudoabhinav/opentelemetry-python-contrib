@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-COMMAND_TO_ATTRIBUTES_MAPPING = {
+COMMAND_TO_ATTRIBUTE_MAPPING = {
     "insert": ["documents"],
     "delete": ["deletes"],
     "update": ["updates"],

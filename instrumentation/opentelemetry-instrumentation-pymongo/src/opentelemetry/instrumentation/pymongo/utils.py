@@ -13,11 +13,10 @@
 # limitations under the License.
 
 COMMAND_TO_ATTRIBUTE_MAPPING = {
-    "insert": ["documents"],
-    "delete": ["deletes"],
-    "update": ["updates"],
-    "find": ["filter"],
-    "findAndModify": ["query", "update"],
-    "aggregate": ["pipeline"],
-    "createIndexes": ["indexes"],
+    "insert": "documents",
+    "delete": "deletes",
+    "update": "updates",
+    "find": "filter",
+    "aggregate": "pipeline",
+    "createIndexes": "indexes",
 }

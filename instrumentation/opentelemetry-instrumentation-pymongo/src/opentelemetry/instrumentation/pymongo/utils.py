@@ -19,4 +19,5 @@ COMMAND_TO_ATTRIBUTE_MAPPING = {
     "find": "filter",
     "aggregate": "pipeline",
     "createIndexes": "indexes",
+    "distinct": "query",
 }
